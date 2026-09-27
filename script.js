@@ -58,7 +58,7 @@ const favouriteList = document.getElementById("favList");
 
 
 
-let lastQuotes = [];
+let lastQuotes = [quotes[0].quote];
 let currentQuote = quotes[0];
 let favourites = JSON.parse(localStorage.getItem("favourites")) || [];
 
